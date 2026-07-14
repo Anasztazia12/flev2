@@ -679,6 +679,21 @@ img {
     }
 }
 
+@media (max-width: 480px) {
+    .site-header-inner {
+        padding: 12px 14px;
+    }
+
+    .logo {
+        font-size: 1.05rem;
+        gap: 6px;
+    }
+
+    .header-scene {
+        display: none;
+    }
+}
+
 .contact-layout {
       display: flex;
       flex-wrap: wrap;
