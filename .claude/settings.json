@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Add-Type -AssemblyName System.Drawing; $img = [System.Drawing.Image]::FromFile\\('c:\\\\Users\\\\rkara\\\\OneDrive\\\\Asztali gép\\\\flev2\\\\assets\\\\images\\\\haz1.png'\\); \"$\\($img.Width\\)x$\\($img.Height\\)\")"
+    ]
+  }
+}
