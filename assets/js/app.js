@@ -123,7 +123,7 @@ function syncHouseAnimation() {
     if (!houseMulti) return;
 
     var CYCLE_SECONDS = 50.1;
-    var STORAGE_KEY = 'flevHouseStart';
+    var STORAGE_KEY = 'archHouseStart';
 
     var start = parseInt(localStorage.getItem(STORAGE_KEY), 10);
     if (!start) {
